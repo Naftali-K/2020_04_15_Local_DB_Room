@@ -17,9 +17,10 @@ import java.util.ArrayList;
 
 /*
 1) Connecting dependencies of DB Room
-2) Making @Entity class/object. @Entity explain how will looks table of DB
-3) Making @Dao interface/abstract file, where written of functionality for use DB, like: Add new row, update row and etc.
-4) Connection and using DB
+2) Making @Entity class/object. @Entity explain how will looks table of DB (User.class)
+3) Making @Dao interface/abstract file, where written of functionality for use DB, like: Add new row, update row and etc.(UserDAO.class)
+4) Making abstract class where include all connections to prepared documents for DB (UserAppDatabase.class)
+5) Connection and using DB (MainActivity.class)
 
     *DB - DataBase
  */

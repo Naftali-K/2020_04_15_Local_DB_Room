@@ -23,6 +23,6 @@ public interface UserDAO {
     @Query("select * from users") //Question fro DB, using MySQL queries
     public List<User> getAllUser();
 
-    @Query("select * from users where id = :idUser")
+    @Query("select * from users where id = :idUser") //method, using find user by his id
     public User findUserByID(long idUser);
 }
