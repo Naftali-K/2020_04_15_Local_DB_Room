@@ -25,6 +25,10 @@ import java.util.ArrayList;
     *DB - DataBase
  */
 
+/*
+test
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     static UserRecycleAdapter adapter;
